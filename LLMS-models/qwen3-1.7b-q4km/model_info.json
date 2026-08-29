@@ -1,0 +1,34 @@
+{
+    "id": "qwen3-1.7b-q4km",
+    "name": "Qwen3 1.7B",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "ggml-org/Qwen3-1.7B-GGUF",
+    "filename": "Qwen3-1.7B-Q4_K_M.gguf",
+    "fileSizeBytes": 1281993472,
+    "directDownloadUrl": "https://huggingface.co/ggml-org/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q4_K_M.gguf",
+    "specifications": {
+        "parameters": "1.7B",
+        "contextLength": "32768 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1.28 GB"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+    ],
+    "requirements": {
+        "ram": "4 GB",
+        "storage": "2 GB",
+        "android": "10+"
+    },
+    "description": "Balanced on-device AI with strong reasoning and coding.",
+    "categories": [
+        "Balanced-4-GB"
+    ]
+}

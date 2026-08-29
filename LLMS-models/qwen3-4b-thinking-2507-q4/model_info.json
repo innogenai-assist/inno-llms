@@ -1,0 +1,33 @@
+{
+    "id": "qwen3-4b-thinking-2507-q4",
+    "name": "Qwen3 4B Thinking 2507",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "QuantFactory/Qwen3-4B-Thinking-2507-GGUF",
+    "filename": "Qwen3-4B-Thinking-2507.Q4_0.gguf",
+    "fileSizeBytes": 2588674848,
+    "directDownloadUrl": "https://huggingface.co/QuantFactory/Qwen3-4B-Thinking-2507-GGUF/resolve/main/Qwen3-4B-Thinking-2507.Q4_0.gguf",
+    "specifications": {
+        "parameters": "4B",
+        "contextLength": "262144 tokens",
+        "quantization": "Q4_K_S",
+        "size": "VERIFY"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Science"
+    ],
+    "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+    },
+    "description": "Reasoning-focused Qwen model optimized for complex thinking tasks.",
+    "categories": [
+        "High-Performance-8-GB"
+    ]
+}

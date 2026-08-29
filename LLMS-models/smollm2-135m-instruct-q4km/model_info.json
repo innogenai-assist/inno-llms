@@ -1,0 +1,31 @@
+{
+    "id": "smollm2-135m-instruct-q4km",
+    "name": "SmolLM2 135M Instruct",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "Segilmez06/SmolLM2-135M-Instruct-Q4_K_M-GGUF",
+    "filename": "smollm2-135m-instruct-q4_k_m.gguf",
+    "fileSizeBytes": 105487424,
+    "directDownloadUrl": "https://huggingface.co/Segilmez06/SmolLM2-135M-Instruct-Q4_K_M-GGUF/resolve/main/smollm2-135m-instruct-q4_k_m.gguf",
+    "specifications": {
+        "parameters": "135M",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.105 GB"
+    },
+    "thinkingMode": false,
+    "capabilities": [
+        "Chat",
+        "Writing",
+        "Summarization"
+    ],
+    "requirements": {
+        "ram": "2 GB",
+        "storage": "0.5 GB",
+        "android": "8+"
+    },
+    "description": "Ultra-lightweight AI for basic on-device tasks.",
+    "categories": [
+        "Ultra-Lightweight-2-GB"
+    ]
+}

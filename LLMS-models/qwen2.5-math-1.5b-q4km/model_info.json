@@ -1,0 +1,32 @@
+{
+    "id": "qwen2.5-math-1.5b-q4km",
+    "name": "Qwen2.5 Math 1.5B",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "sheldonrobinson/Qwen2.5-Math-1.5B-Instruct-Q4_K_M-GGUF",
+    "filename": "qwen2.5-math-1.5b-instruct-q4_k_m.gguf",
+    "fileSizeBytes": 985917056,
+    "directDownloadUrl": "https://huggingface.co/sheldonrobinson/Qwen2.5-Math-1.5B-Instruct-Q4_K_M-GGUF/resolve/main/qwen2.5-math-1.5b-instruct-q4_k_m.gguf",
+    "specifications": {
+        "parameters": "1.5B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.986 GB"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Mathematics",
+        "Coding"
+    ],
+    "requirements": {
+        "ram": "4 GB",
+        "storage": "2 GB",
+        "android": "10+"
+    },
+    "description": "Specialized AI for mathematical reasoning and problem solving.",
+    "categories": [
+        "Balanced-4-GB"
+    ]
+}

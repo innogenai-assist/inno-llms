@@ -1,0 +1,27 @@
+GEMMA TERMS OF USE
+Google LLC
+
+By using, reproducing, modifying, distributing, or preparing derivative works of the
+Gemma model and related materials, you agree to be bound by these Gemma Terms of Use.
+
+1. Grant of License.
+Google grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+revocable copyright and patent license to reproduce, prepare derivative works of,
+publicly display, publicly perform, sublicense, and distribute Gemma materials.
+
+2. Distribution.
+You may distribute copies of the Gemma materials or derivative works thereof,
+provided that:
+a. You provide recipients with a copy of these Terms;
+b. You cause modified files to carry prominent notices stating that you changed the files;
+c. You retain all copyright, patent, trademark, and attribution notices;
+d. Your use complies with the Gemma Prohibited Use Policy.
+
+3. Prohibited Use Policy.
+You agree not to use the Gemma materials to:
+- Violate applicable laws or regulations;
+- Generate content that harms minors, promotes violence, hate speech, or harassment;
+- Generate deceptive or misleading information, deepfakes, or cyberattack payloads;
+- Circumvent safety features or develop prohibited weapons or autonomous systems.
+
+Full terms and policies: https://ai.google.dev/gemma/terms

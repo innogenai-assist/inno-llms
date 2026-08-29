@@ -1,0 +1,20 @@
+# GGUF Model weights and partial downloads
+*.gguf
+*.part
+*.bin
+*.onnx
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

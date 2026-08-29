@@ -1,0 +1,31 @@
+{
+    "id": "smollm2-360m-instruct-q4km",
+    "name": "SmolLM2 360M Instruct",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "mfuntowicz/SmolLM2-360M-Instruct-Q4_K_M-GGUF",
+    "filename": "smollm2-360m-instruct-q4_k_m.gguf",
+    "fileSizeBytes": 270590528,
+    "directDownloadUrl": "https://huggingface.co/mfuntowicz/SmolLM2-360M-Instruct-Q4_K_M-GGUF/resolve/main/smollm2-360m-instruct-q4_k_m.gguf",
+    "specifications": {
+        "parameters": "360M",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.271 GB"
+    },
+    "thinkingMode": false,
+    "capabilities": [
+        "Chat",
+        "Writing",
+        "Summarization"
+    ],
+    "requirements": {
+        "ram": "2 GB",
+        "storage": "0.7 GB",
+        "android": "8+"
+    },
+    "description": "Small and fast AI for lightweight on-device tasks.",
+    "categories": [
+        "Ultra-Lightweight-2-GB"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": "qwen3-0.6b-q4",
+    "name": "Qwen3 0.6B",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "ggml-org/Qwen3-0.6B-GGUF",
+    "filename": "Qwen3-0.6B-Q4_0.gguf",
+    "fileSizeBytes": 428970080,
+    "directDownloadUrl": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_0.gguf",
+    "specifications": {
+        "parameters": "0.6B",
+        "contextLength": "32768 tokens",
+        "quantization": "Q4_0",
+        "size": "429 MB"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+    ],
+    "requirements": {
+        "ram": "2 GB",
+        "storage": "1 GB",
+        "android": "8+"
+    },
+    "description": "Fast, lightweight AI for private on-device use.",
+    "categories": [
+        "Ultra-Lightweight-2-GB",
+        "Lightweight-3-GB"
+    ]
+}

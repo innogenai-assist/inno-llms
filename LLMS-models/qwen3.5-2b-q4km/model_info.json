@@ -1,0 +1,34 @@
+{
+    "id": "qwen3.5-2b-q4km",
+    "name": "Qwen3.5 2B",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "openresearchtools/Qwen3.5-2B-GGUF",
+    "filename": "Qwen3.5-2B-Q4_K_M.gguf",
+    "fileSizeBytes": 1274808352,
+    "directDownloadUrl": "https://huggingface.co/openresearchtools/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q4_K_M.gguf",
+    "specifications": {
+        "parameters": "2B",
+        "contextLength": "verify model release",
+        "quantization": "Q4_K_M",
+        "size": "verify"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+    ],
+    "requirements": {
+        "ram": "6 GB",
+        "storage": "3 GB",
+        "android": "10+"
+    },
+    "description": "Advanced compact AI for stronger local reasoning and coding.",
+    "categories": [
+        "Advanced-6-GB"
+    ]
+}

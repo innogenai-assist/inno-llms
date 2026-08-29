@@ -1,0 +1,32 @@
+{
+    "id": "granite-3.3-2b-instruct-q4km",
+    "name": "Granite 3.3 2B Instruct",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "lm-kit/granite-3.3-2b-instruct-gguf",
+    "filename": "granite-3.3-2B-instruct-Q4_K_M.gguf",
+    "fileSizeBytes": 1545510880,
+    "directDownloadUrl": "https://huggingface.co/lm-kit/granite-3.3-2b-instruct-gguf/resolve/main/granite-3.3-2B-instruct-Q4_K_M.gguf",
+    "specifications": {
+        "parameters": "2B",
+        "contextLength": "verify model release",
+        "quantization": "Q4_K_M",
+        "size": "1.55 GB"
+    },
+    "thinkingMode": false,
+    "capabilities": [
+        "Chat",
+        "Coding",
+        "Reasoning",
+        "Summarization"
+    ],
+    "requirements": {
+        "ram": "6 GB",
+        "storage": "3 GB",
+        "android": "10+"
+    },
+    "description": "Compact instruction model for coding and general tasks.",
+    "categories": [
+        "Advanced-6-GB"
+    ]
+}

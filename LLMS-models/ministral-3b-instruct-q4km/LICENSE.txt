@@ -1,0 +1,19 @@
+MISTRAL RESEARCH LICENSE AGREEMENT
+Mistral AI
+
+By downloading, copying, accessing, or using the model weights, code, and documentation
+provided by Mistral AI, you agree to this License.
+
+1. Grant of Rights.
+Mistral AI grants you a non-exclusive, non-transferable, royalty-free, limited license to
+use, copy, and modify the model weights and software solely for non-commercial research,
+personal, and educational evaluation purposes.
+
+2. Restrictions.
+- Commercial Use: Any commercial use, offering as an API or cloud service, or integration
+  into commercial products requires a separate commercial license from Mistral AI.
+- Attribution: You must retain all copyright and attribution notices provided with the model.
+- Prohibited Activities: You agree not to use the model for unlawful, abusive, deceptive,
+  or malicious activities.
+
+Official repository & licensing terms: https://mistral.ai/news/ministral/

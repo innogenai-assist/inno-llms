@@ -1,0 +1,35 @@
+{
+    "id": "qwen3-4b-q4km",
+    "name": "Qwen3 4B",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "sourceRepository": "Qwen/Qwen3-4B-GGUF",
+    "filename": "Qwen3-4B-Q4_K_M.gguf",
+    "fileSizeBytes": 2497381664,
+    "directDownloadUrl": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf",
+    "specifications": {
+        "parameters": "4B",
+        "contextLength": "32768 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.50 GB"
+    },
+    "thinkingMode": true,
+    "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+    ],
+    "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+    },
+    "description": "High-performance local AI for demanding mobile workloads.",
+    "categories": [
+        "High-Performance-8-GB",
+        "High-End-12-GB-Plus"
+    ]
+}
