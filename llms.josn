@@ -1,15 +1,15 @@
 {
   "Ultra-Lightweight-2-GB": [
     {
-      "id": "smollm2-135m-instruct",
+      "id": "smollm2-135m-instruct-q4km",
       "name": "SmolLM2 135M Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+      "url": "https://huggingface.co/tensorblock/SmolLM2-135M-Instruct-GGUF",
       "specifications": {
         "parameters": "135M",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.1 GB"
+        "size": "0.105 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -25,15 +25,15 @@
       "description": "Ultra-lightweight AI for basic on-device tasks."
     },
     {
-      "id": "smollm2-360m-instruct",
+      "id": "smollm2-360m-instruct-q4km",
       "name": "SmolLM2 360M Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct",
+      "url": "https://huggingface.co/tensorblock/SmolLM2-360M-Instruct-GGUF",
       "specifications": {
         "parameters": "360M",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.3 GB"
+        "size": "0.271 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -49,15 +49,15 @@
       "description": "Small and fast AI for lightweight on-device tasks."
     },
     {
-      "id": "qwen3-0.6b-q4km",
+      "id": "qwen3-0.6b-q4",
       "name": "Qwen3 0.6B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF",
       "specifications": {
         "parameters": "0.6B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "0.5 GB"
+        "contextLength": "32768 tokens",
+        "quantization": "Q4_0",
+        "size": "429 MB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -76,15 +76,15 @@
       "description": "Fast, lightweight AI for private on-device use."
     },
     {
-      "id": "qwen3.5-0.8b",
+      "id": "qwen3.5-0.8b-q4",
       "name": "Qwen3.5 0.8B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "url": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF",
       "specifications": {
         "parameters": "0.8B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "0.6 GB"
+        "contextLength": "verify model release",
+        "quantization": "Q4_0",
+        "size": "563 MB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -97,21 +97,21 @@
       ],
       "requirements": {
         "ram": "2 GB",
-        "storage": "1 GB",
+        "storage": "1.5 GB",
         "android": "8+"
       },
       "description": "Compact AI for fast everyday conversations and tasks."
     },
     {
-      "id": "llama-3.2-1b-instruct",
+      "id": "llama-3.2-1b-instruct-q4km",
       "name": "Llama 3.2 1B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
       "specifications": {
         "parameters": "1B",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.8 GB"
+        "size": "808 MB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -131,15 +131,15 @@
 
   "Lightweight-3-GB": [
     {
-      "id": "gemma-3-1b-it",
+      "id": "gemma-3-1b-it-q4km",
       "name": "Gemma 3 1B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/google/gemma-3-1b-it",
+      "url": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF",
       "specifications": {
         "parameters": "1B",
-        "contextLength": "8192 tokens",
+        "contextLength": "verify model release",
         "quantization": "Q4_K_M",
-        "size": "0.8 GB"
+        "size": "806 MB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -157,15 +157,15 @@
       "description": "Compact general-purpose AI for mobile devices."
     },
     {
-      "id": "smollm2-1.7b-instruct",
+      "id": "smollm2-1.7b-instruct-q4km",
       "name": "SmolLM2 1.7B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
       "specifications": {
         "parameters": "1.7B",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "1.1 GB"
+        "size": "1.06 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -182,15 +182,15 @@
       "description": "Small instruction model optimized for local inference."
     },
     {
-      "id": "qwen3-0.6b-q4km",
+      "id": "qwen3-0.6b-q4",
       "name": "Qwen3 0.6B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF",
       "specifications": {
         "parameters": "0.6B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "0.5 GB"
+        "contextLength": "32768 tokens",
+        "quantization": "Q4_0",
+        "size": "429 MB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -209,15 +209,15 @@
       "description": "Fast, lightweight AI for private on-device use."
     },
     {
-      "id": "llama-3.2-1b-instruct",
+      "id": "llama-3.2-1b-instruct-q4km",
       "name": "Llama 3.2 1B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
       "specifications": {
         "parameters": "1B",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.8 GB"
+        "size": "808 MB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -237,15 +237,15 @@
 
   "Balanced-4-GB": [
     {
-      "id": "qwen3-1.7b",
+      "id": "qwen3-1.7b-q4km",
       "name": "Qwen3 1.7B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "url": "https://huggingface.co/ggml-org/Qwen3-1.7B-GGUF",
       "specifications": {
         "parameters": "1.7B",
-        "contextLength": "8192 tokens",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "1.1 GB"
+        "size": "1.28 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -267,12 +267,12 @@
       "id": "deepseek-r1-distill-qwen-1.5b",
       "name": "DeepSeek R1 Distill Qwen 1.5B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "url": "VERIFY_GGUF_REPOSITORY",
       "specifications": {
         "parameters": "1.5B",
-        "contextLength": "8192 tokens",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "1 GB"
+        "size": "VERIFY"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -289,15 +289,15 @@
       "description": "Reasoning-focused AI for mathematics and technical tasks."
     },
     {
-      "id": "qwen2.5-math-1.5b",
+      "id": "qwen2.5-math-1.5b-q4km",
       "name": "Qwen2.5 Math 1.5B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B",
+      "url": "https://huggingface.co/tensorblock/Qwen2.5-Math-1.5B-GGUF",
       "specifications": {
         "parameters": "1.5B",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "1 GB"
+        "size": "0.986 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -314,15 +314,15 @@
       "description": "Specialized AI for mathematical reasoning and problem solving."
     },
     {
-      "id": "llama-3.2-3b-instruct",
+      "id": "llama-3.2-3b-instruct-q4km",
       "name": "Llama 3.2 3B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
       "specifications": {
         "parameters": "3B",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "2 GB"
+        "size": "2.02 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -342,15 +342,15 @@
 
   "Advanced-6-GB": [
     {
-      "id": "qwen3.5-2b",
+      "id": "qwen3.5-2b-q4km",
       "name": "Qwen3.5 2B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3.5-2B",
+      "url": "https://huggingface.co/openresearchtools/Qwen3.5-2B-GGUF",
       "specifications": {
         "parameters": "2B",
-        "contextLength": "8192 tokens",
+        "contextLength": "verify model release",
         "quantization": "Q4_K_M",
-        "size": "1.5 GB"
+        "size": "verify"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -369,15 +369,15 @@
       "description": "Advanced compact AI for stronger local reasoning and coding."
     },
     {
-      "id": "granite-3.3-2b-instruct",
+      "id": "granite-3.3-2b-instruct-q4km",
       "name": "Granite 3.3 2B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ibm-granite/granite-3.3-2b-instruct",
+      "url": "https://huggingface.co/lm-kit/granite-3.3-2b-instruct-gguf",
       "specifications": {
         "parameters": "2B",
-        "contextLength": "8192 tokens",
+        "contextLength": "verify model release",
         "quantization": "Q4_K_M",
-        "size": "1.5 GB"
+        "size": "1.55 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -394,15 +394,15 @@
       "description": "Compact instruction model for coding and general tasks."
     },
     {
-      "id": "phi-3.5-mini-instruct",
+      "id": "phi-3.5-mini-instruct-q4km",
       "name": "Phi-3.5 Mini Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+      "url": "https://huggingface.co/QuantFactory/Phi-3.5-mini-instruct-GGUF",
       "specifications": {
         "parameters": "3.8B",
-        "contextLength": "8192 tokens",
+        "contextLength": "128K tokens",
         "quantization": "Q4_K_M",
-        "size": "2.4 GB"
+        "size": "2.39 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -423,15 +423,15 @@
 
   "High-Performance-8-GB": [
     {
-      "id": "qwen3-4b",
+      "id": "qwen3-4b-q4km",
       "name": "Qwen3 4B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
       "specifications": {
         "parameters": "4B",
-        "contextLength": "8192 tokens",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "2.5 GB"
+        "size": "2.50 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -450,17 +450,43 @@
       "description": "High-performance local AI for demanding mobile workloads."
     },
     {
-      "id": "phi-4-mini-instruct",
-      "name": "Phi-4 Mini Instruct",
+      "id": "qwen3-4b-thinking-2507-q4",
+      "name": "Qwen3 4B Thinking 2507",
       "version": "1.0.0",
-      "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+      "url": "https://huggingface.co/QuantFactory/Qwen3-4B-Thinking-2507-GGUF",
       "specifications": {
-        "parameters": "3.8B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "2.5 GB"
+        "parameters": "4B",
+        "contextLength": "262144 tokens",
+        "quantization": "Q4_K_S",
+        "size": "VERIFY"
       },
       "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Science"
+      ],
+      "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+      },
+      "description": "Reasoning-focused Qwen model optimized for complex thinking tasks."
+    },
+    {
+      "id": "phi-4-mini-instruct-q4km",
+      "name": "Phi-4 Mini Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/tensorblock/Phi-4-mini-instruct-GGUF",
+      "specifications": {
+        "parameters": "3.8B",
+        "contextLength": "128K tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.492 GB"
+      },
+      "thinkingMode": false,
       "capabilities": [
         "Chat",
         "Reasoning",
@@ -475,15 +501,15 @@
       "description": "Compact high-performance model for advanced reasoning and coding."
     },
     {
-      "id": "ministral-3b-instruct",
+      "id": "ministral-3b-instruct-q4km",
       "name": "Ministral 3B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ministral/Ministral-3b-instruct",
+      "url": "https://huggingface.co/tensorblock/Ministral-3b-instruct-GGUF",
       "specifications": {
         "parameters": "3B",
-        "contextLength": "8192 tokens",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "2 GB"
+        "size": "1.860 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -503,15 +529,15 @@
 
   "High-End-12-GB-Plus": [
     {
-      "id": "qwen3-8b",
+      "id": "qwen3-8b-q4km",
       "name": "Qwen3 8B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
       "specifications": {
-        "parameters": "8B",
-        "contextLength": "8192 tokens",
+        "parameters": "8.2B",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "5 GB"
+        "size": "5.03 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -530,15 +556,15 @@
       "description": "High-end on-device AI for demanding reasoning and coding workloads."
     },
     {
-      "id": "qwen3-4b",
+      "id": "qwen3-4b-q4km",
       "name": "Qwen3 4B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
       "specifications": {
         "parameters": "4B",
-        "contextLength": "8192 tokens",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
-        "size": "2.5 GB"
+        "size": "2.50 GB"
       },
       "thinkingMode": true,
       "capabilities": [
