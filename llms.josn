@@ -1,1 +1,560 @@
+{
+  "Ultra-Lightweight-2-GB": [
+    {
+      "id": "smollm2-135m-instruct",
+      "name": "SmolLM2 135M Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+      "specifications": {
+        "parameters": "135M",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.1 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "2 GB",
+        "storage": "0.5 GB",
+        "android": "8+"
+      },
+      "description": "Ultra-lightweight AI for basic on-device tasks."
+    },
+    {
+      "id": "smollm2-360m-instruct",
+      "name": "SmolLM2 360M Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct",
+      "specifications": {
+        "parameters": "360M",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.3 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "2 GB",
+        "storage": "0.7 GB",
+        "android": "8+"
+      },
+      "description": "Small and fast AI for lightweight on-device tasks."
+    },
+    {
+      "id": "qwen3-0.6b-q4km",
+      "name": "Qwen3 0.6B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "specifications": {
+        "parameters": "0.6B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "2 GB",
+        "storage": "1 GB",
+        "android": "8+"
+      },
+      "description": "Fast, lightweight AI for private on-device use."
+    },
+    {
+      "id": "qwen3.5-0.8b",
+      "name": "Qwen3.5 0.8B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "specifications": {
+        "parameters": "0.8B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.6 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "2 GB",
+        "storage": "1 GB",
+        "android": "8+"
+      },
+      "description": "Compact AI for fast everyday conversations and tasks."
+    },
+    {
+      "id": "llama-3.2-1b-instruct",
+      "name": "Llama 3.2 1B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "specifications": {
+        "parameters": "1B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.8 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Coding",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "2 GB",
+        "storage": "1.5 GB",
+        "android": "8+"
+      },
+      "description": "Efficient instruction-following AI for mobile devices."
+    }
+  ],
 
+  "Lightweight-3-GB": [
+    {
+      "id": "gemma-3-1b-it",
+      "name": "Gemma 3 1B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/google/gemma-3-1b-it",
+      "specifications": {
+        "parameters": "1B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.8 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "3 GB",
+        "storage": "1.5 GB",
+        "android": "8+"
+      },
+      "description": "Compact general-purpose AI for mobile devices."
+    },
+    {
+      "id": "smollm2-1.7b-instruct",
+      "name": "SmolLM2 1.7B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "specifications": {
+        "parameters": "1.7B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1.1 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Coding",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "3 GB",
+        "storage": "2 GB",
+        "android": "8+"
+      },
+      "description": "Small instruction model optimized for local inference."
+    },
+    {
+      "id": "qwen3-0.6b-q4km",
+      "name": "Qwen3 0.6B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "specifications": {
+        "parameters": "0.6B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "3 GB",
+        "storage": "1 GB",
+        "android": "8+"
+      },
+      "description": "Fast, lightweight AI for private on-device use."
+    },
+    {
+      "id": "llama-3.2-1b-instruct",
+      "name": "Llama 3.2 1B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "specifications": {
+        "parameters": "1B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "0.8 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Coding",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "3 GB",
+        "storage": "1.5 GB",
+        "android": "8+"
+      },
+      "description": "Efficient instruction-following AI for mobile devices."
+    }
+  ],
+
+  "Balanced-4-GB": [
+    {
+      "id": "qwen3-1.7b",
+      "name": "Qwen3 1.7B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "specifications": {
+        "parameters": "1.7B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1.1 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "4 GB",
+        "storage": "2 GB",
+        "android": "10+"
+      },
+      "description": "Balanced on-device AI with strong reasoning and coding."
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-1.5b",
+      "name": "DeepSeek R1 Distill Qwen 1.5B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "specifications": {
+        "parameters": "1.5B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics"
+      ],
+      "requirements": {
+        "ram": "4 GB",
+        "storage": "2 GB",
+        "android": "10+"
+      },
+      "description": "Reasoning-focused AI for mathematics and technical tasks."
+    },
+    {
+      "id": "qwen2.5-math-1.5b",
+      "name": "Qwen2.5 Math 1.5B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B",
+      "specifications": {
+        "parameters": "1.5B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Mathematics",
+        "Coding"
+      ],
+      "requirements": {
+        "ram": "4 GB",
+        "storage": "2 GB",
+        "android": "10+"
+      },
+      "description": "Specialized AI for mathematical reasoning and problem solving."
+    },
+    {
+      "id": "llama-3.2-3b-instruct",
+      "name": "Llama 3.2 3B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "specifications": {
+        "parameters": "3B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Coding",
+        "Writing",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "4 GB",
+        "storage": "3 GB",
+        "android": "10+"
+      },
+      "description": "Powerful compact instruction model for mobile devices."
+    }
+  ],
+
+  "Advanced-6-GB": [
+    {
+      "id": "qwen3.5-2b",
+      "name": "Qwen3.5 2B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-2B",
+      "specifications": {
+        "parameters": "2B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "6 GB",
+        "storage": "3 GB",
+        "android": "10+"
+      },
+      "description": "Advanced compact AI for stronger local reasoning and coding."
+    },
+    {
+      "id": "granite-3.3-2b-instruct",
+      "name": "Granite 3.3 2B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/ibm-granite/granite-3.3-2b-instruct",
+      "specifications": {
+        "parameters": "2B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "1.5 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Coding",
+        "Reasoning",
+        "Summarization"
+      ],
+      "requirements": {
+        "ram": "6 GB",
+        "storage": "3 GB",
+        "android": "10+"
+      },
+      "description": "Compact instruction model for coding and general tasks."
+    },
+    {
+      "id": "phi-3.5-mini-instruct",
+      "name": "Phi-3.5 Mini Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+      "specifications": {
+        "parameters": "3.8B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.4 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing"
+      ],
+      "requirements": {
+        "ram": "6 GB",
+        "storage": "4 GB",
+        "android": "10+"
+      },
+      "description": "Strong compact model for advanced mobile AI tasks."
+    }
+  ],
+
+  "High-Performance-8-GB": [
+    {
+      "id": "qwen3-4b",
+      "name": "Qwen3 4B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "specifications": {
+        "parameters": "4B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+      },
+      "description": "High-performance local AI for demanding mobile workloads."
+    },
+    {
+      "id": "phi-4-mini-instruct",
+      "name": "Phi-4 Mini Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+      "specifications": {
+        "parameters": "3.8B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics"
+      ],
+      "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+      },
+      "description": "Compact high-performance model for advanced reasoning and coding."
+    },
+    {
+      "id": "ministral-3b-instruct",
+      "name": "Ministral 3B Instruct",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/ministral/Ministral-3b-instruct",
+      "specifications": {
+        "parameters": "3B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2 GB"
+      },
+      "thinkingMode": false,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Writing"
+      ],
+      "requirements": {
+        "ram": "8 GB",
+        "storage": "4 GB",
+        "android": "11+"
+      },
+      "description": "Efficient high-quality AI for resource-constrained environments."
+    }
+  ],
+
+  "High-End-12-GB-Plus": [
+    {
+      "id": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "specifications": {
+        "parameters": "8B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "12 GB+",
+        "storage": "6 GB",
+        "android": "12+"
+      },
+      "description": "High-end on-device AI for demanding reasoning and coding workloads."
+    },
+    {
+      "id": "qwen3-4b",
+      "name": "Qwen3 4B",
+      "version": "1.0.0",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "specifications": {
+        "parameters": "4B",
+        "contextLength": "8192 tokens",
+        "quantization": "Q4_K_M",
+        "size": "2.5 GB"
+      },
+      "thinkingMode": true,
+      "capabilities": [
+        "Chat",
+        "Reasoning",
+        "Coding",
+        "Mathematics",
+        "Writing",
+        "Translation"
+      ],
+      "requirements": {
+        "ram": "12 GB+",
+        "storage": "4 GB",
+        "android": "12+"
+      },
+      "description": "High-quality AI with additional memory headroom."
+    }
+  ]
+}
