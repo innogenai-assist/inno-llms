@@ -1,15 +1,14 @@
 {
-  "Ultra-Lightweight-2-GB": [
-    {
+  "models": {
+    "smollm2-135m-instruct-q4km": {
       "id": "smollm2-135m-instruct-q4km",
       "name": "SmolLM2 135M Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/tensorblock/SmolLM2-135M-Instruct-GGUF",
       "specifications": {
         "parameters": "135M",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.105 GB"
+        "size": "105 MB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -22,18 +21,23 @@
         "storage": "0.5 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_M.gguf",
+        "filename": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 105454432,
+        "sha256": "2e8040ceae7815abe0dcb3540b9995eaa1fa0d2ca9e797d0a635ae4433c68c2d"
+      },
       "description": "Ultra-lightweight AI for basic on-device tasks."
     },
-    {
+    "smollm2-360m-instruct-q4km": {
       "id": "smollm2-360m-instruct-q4km",
       "name": "SmolLM2 360M Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/tensorblock/SmolLM2-360M-Instruct-GGUF",
       "specifications": {
         "parameters": "360M",
         "contextLength": "8192 tokens",
         "quantization": "Q4_K_M",
-        "size": "0.271 GB"
+        "size": "271 MB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -46,16 +50,21 @@
         "storage": "0.7 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q4_K_M.gguf",
+        "filename": "SmolLM2-360M-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 270590880,
+        "sha256": "2fa3f013dcdd7b99f9b237717fa0b12d75bbb89984cc1274be1471a465bac9c2"
+      },
       "description": "Small and fast AI for lightweight on-device tasks."
     },
-    {
+    "qwen3-0.6b-q4": {
       "id": "qwen3-0.6b-q4",
       "name": "Qwen3 0.6B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF",
       "specifications": {
         "parameters": "0.6B",
-        "contextLength": "32768 tokens",
+        "contextLength": "40960 tokens",
         "quantization": "Q4_0",
         "size": "429 MB"
       },
@@ -73,16 +82,21 @@
         "storage": "1 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_0.gguf",
+        "filename": "Qwen3-0.6B-Q4_0.gguf",
+        "sizeBytes": 428970080,
+        "sha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4"
+      },
       "description": "Fast, lightweight AI for private on-device use."
     },
-    {
+    "qwen3.5-0.8b-q4": {
       "id": "qwen3.5-0.8b-q4",
       "name": "Qwen3.5 0.8B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF",
       "specifications": {
         "parameters": "0.8B",
-        "contextLength": "verify model release",
+        "contextLength": "262144 tokens",
         "quantization": "Q4_0",
         "size": "563 MB"
       },
@@ -100,16 +114,21 @@
         "storage": "1.5 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_0.gguf",
+        "filename": "Qwen3.5-0.8B-Q4_0.gguf",
+        "sizeBytes": 563036064,
+        "sha256": "57d1997790d1744fba5b40a7317df71ea5e2acee28c47e78f0cce39c0703f8cf"
+      },
       "description": "Compact AI for fast everyday conversations and tasks."
     },
-    {
+    "llama-3.2-1b-instruct-q4km": {
       "id": "llama-3.2-1b-instruct-q4km",
       "name": "Llama 3.2 1B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
       "specifications": {
         "parameters": "1B",
-        "contextLength": "8192 tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
         "size": "808 MB"
       },
@@ -125,19 +144,21 @@
         "storage": "1.5 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-1b-instruct-q4_k_m.gguf",
+        "filename": "llama-3.2-1b-instruct-q4_k_m.gguf",
+        "sizeBytes": 807690656,
+        "sha256": "1d0e9419ec4e12aef73ccf4ffd122703e94c48344a96bc7c5f0f2772c2152ce3"
+      },
       "description": "Efficient instruction-following AI for mobile devices."
-    }
-  ],
-
-  "Lightweight-3-GB": [
-    {
+    },
+    "gemma-3-1b-it-q4km": {
       "id": "gemma-3-1b-it-q4km",
       "name": "Gemma 3 1B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF",
       "specifications": {
         "parameters": "1B",
-        "contextLength": "verify model release",
+        "contextLength": "32768 tokens",
         "quantization": "Q4_K_M",
         "size": "806 MB"
       },
@@ -154,13 +175,18 @@
         "storage": "1.5 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf",
+        "filename": "gemma-3-1b-it-Q4_K_M.gguf",
+        "sizeBytes": 806058240,
+        "sha256": "8ccc5cd1f1b3602548715ae25a66ed73fd5dc68a210412eea643eb20eb75a135"
+      },
       "description": "Compact general-purpose AI for mobile devices."
     },
-    {
+    "smollm2-1.7b-instruct-q4km": {
       "id": "smollm2-1.7b-instruct-q4km",
       "name": "SmolLM2 1.7B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
       "specifications": {
         "parameters": "1.7B",
         "contextLength": "8192 tokens",
@@ -179,71 +205,21 @@
         "storage": "2 GB",
         "android": "8+"
       },
+      "download": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf",
+        "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+        "sizeBytes": 1055609536,
+        "sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33"
+      },
       "description": "Small instruction model optimized for local inference."
     },
-    {
-      "id": "qwen3-0.6b-q4",
-      "name": "Qwen3 0.6B",
-      "version": "1.0.0",
-      "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF",
-      "specifications": {
-        "parameters": "0.6B",
-        "contextLength": "32768 tokens",
-        "quantization": "Q4_0",
-        "size": "429 MB"
-      },
-      "thinkingMode": true,
-      "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Mathematics",
-        "Writing",
-        "Translation"
-      ],
-      "requirements": {
-        "ram": "3 GB",
-        "storage": "1 GB",
-        "android": "8+"
-      },
-      "description": "Fast, lightweight AI for private on-device use."
-    },
-    {
-      "id": "llama-3.2-1b-instruct-q4km",
-      "name": "Llama 3.2 1B Instruct",
-      "version": "1.0.0",
-      "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
-      "specifications": {
-        "parameters": "1B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "808 MB"
-      },
-      "thinkingMode": false,
-      "capabilities": [
-        "Chat",
-        "Coding",
-        "Writing",
-        "Summarization"
-      ],
-      "requirements": {
-        "ram": "3 GB",
-        "storage": "1.5 GB",
-        "android": "8+"
-      },
-      "description": "Efficient instruction-following AI for mobile devices."
-    }
-  ],
-
-  "Balanced-4-GB": [
-    {
+    "qwen3-1.7b-q4km": {
       "id": "qwen3-1.7b-q4km",
       "name": "Qwen3 1.7B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/ggml-org/Qwen3-1.7B-GGUF",
       "specifications": {
         "parameters": "1.7B",
-        "contextLength": "32768 tokens",
+        "contextLength": "40960 tokens",
         "quantization": "Q4_K_M",
         "size": "1.28 GB"
       },
@@ -261,18 +237,23 @@
         "storage": "2 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/ggml-org/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q4_K_M.gguf",
+        "filename": "Qwen3-1.7B-Q4_K_M.gguf",
+        "sizeBytes": 1282439264,
+        "sha256": "d2387ca2dbfee2ffabce7120d3770dadca0b293052bc2f0e138fdc940d9bc7b5"
+      },
       "description": "Balanced on-device AI with strong reasoning and coding."
     },
-    {
+    "deepseek-r1-distill-qwen-1.5b": {
       "id": "deepseek-r1-distill-qwen-1.5b",
       "name": "DeepSeek R1 Distill Qwen 1.5B",
       "version": "1.0.0",
-      "url": "VERIFY_GGUF_REPOSITORY",
       "specifications": {
         "parameters": "1.5B",
-        "contextLength": "32768 tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
-        "size": "VERIFY"
+        "size": "1.12 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -286,16 +267,21 @@
         "storage": "2 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+        "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+        "sizeBytes": 1117321312,
+        "sha256": "f3bdf9cf31dee4b57ae4e455a1cb0d01b5c2c1b50d72d3112141c195506c2840"
+      },
       "description": "Reasoning-focused AI for mathematics and technical tasks."
     },
-    {
+    "qwen2.5-math-1.5b-q4km": {
       "id": "qwen2.5-math-1.5b-q4km",
       "name": "Qwen2.5 Math 1.5B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/tensorblock/Qwen2.5-Math-1.5B-GGUF",
       "specifications": {
         "parameters": "1.5B",
-        "contextLength": "8192 tokens",
+        "contextLength": "4096 tokens",
         "quantization": "Q4_K_M",
         "size": "0.986 GB"
       },
@@ -311,16 +297,21 @@
         "storage": "2 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/bartowski/Qwen2.5-Math-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-Math-1.5B-Instruct-Q4_K_M.gguf",
+        "filename": "Qwen2.5-Math-1.5B-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 986048832,
+        "sha256": "9614a50f03c897028920ca0dc4365da570bf587f9ee7768261216fe370b37e8e"
+      },
       "description": "Specialized AI for mathematical reasoning and problem solving."
     },
-    {
+    "llama-3.2-3b-instruct-q4km": {
       "id": "llama-3.2-3b-instruct-q4km",
       "name": "Llama 3.2 3B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
       "specifications": {
         "parameters": "3B",
-        "contextLength": "8192 tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
         "size": "2.02 GB"
       },
@@ -336,21 +327,23 @@
         "storage": "3 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-3b-instruct-q4_k_m.gguf",
+        "filename": "llama-3.2-3b-instruct-q4_k_m.gguf",
+        "sizeBytes": 2019373920,
+        "sha256": "c55a83bfb6396799337853ca69918a0b9bbb2917621078c34570bc17d20fd7a1"
+      },
       "description": "Powerful compact instruction model for mobile devices."
-    }
-  ],
-
-  "Advanced-6-GB": [
-    {
+    },
+    "qwen3.5-2b-q4km": {
       "id": "qwen3.5-2b-q4km",
       "name": "Qwen3.5 2B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/openresearchtools/Qwen3.5-2B-GGUF",
       "specifications": {
         "parameters": "2B",
-        "contextLength": "verify model release",
+        "contextLength": "262144 tokens",
         "quantization": "Q4_K_M",
-        "size": "verify"
+        "size": "1.27 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -366,16 +359,21 @@
         "storage": "3 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/openresearchtools/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q4_K_M.gguf",
+        "filename": "Qwen3.5-2B-Q4_K_M.gguf",
+        "sizeBytes": 1274396608,
+        "sha256": "d6bd9f4175302658c1d704e44858842606652bbe53c56cd542e31ff10d0cfd58"
+      },
       "description": "Advanced compact AI for stronger local reasoning and coding."
     },
-    {
+    "granite-3.3-2b-instruct-q4km": {
       "id": "granite-3.3-2b-instruct-q4km",
       "name": "Granite 3.3 2B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/lm-kit/granite-3.3-2b-instruct-gguf",
       "specifications": {
         "parameters": "2B",
-        "contextLength": "verify model release",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
         "size": "1.55 GB"
       },
@@ -391,16 +389,21 @@
         "storage": "3 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/ibm-granite/granite-3.3-2b-instruct-GGUF/resolve/main/granite-3.3-2b-instruct-Q4_K_M.gguf",
+        "filename": "granite-3.3-2b-instruct-Q4_K_M.gguf",
+        "sizeBytes": 1545303328,
+        "sha256": "ac71e9e32c0bea919b409c5918f69ca74339854b0319c5065e4e9fb6d95c4852"
+      },
       "description": "Compact instruction model for coding and general tasks."
     },
-    {
+    "phi-3.5-mini-instruct-q4km": {
       "id": "phi-3.5-mini-instruct-q4km",
       "name": "Phi-3.5 Mini Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/QuantFactory/Phi-3.5-mini-instruct-GGUF",
       "specifications": {
         "parameters": "3.8B",
-        "contextLength": "128K tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
         "size": "2.39 GB"
       },
@@ -417,19 +420,21 @@
         "storage": "4 GB",
         "android": "10+"
       },
+      "download": {
+        "url": "https://huggingface.co/QuantFactory/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct.Q4_K_M.gguf",
+        "filename": "Phi-3.5-mini-instruct.Q4_K_M.gguf",
+        "sizeBytes": 2393232384,
+        "sha256": "3ef532675b6684b28e0a1a0dca8b3bf4132673bf2294b7d87b41b1d64bb03bca"
+      },
       "description": "Strong compact model for advanced mobile AI tasks."
-    }
-  ],
-
-  "High-Performance-8-GB": [
-    {
+    },
+    "qwen3-4b-q4km": {
       "id": "qwen3-4b-q4km",
       "name": "Qwen3 4B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
       "specifications": {
         "parameters": "4B",
-        "contextLength": "32768 tokens",
+        "contextLength": "40960 tokens",
         "quantization": "Q4_K_M",
         "size": "2.50 GB"
       },
@@ -447,18 +452,23 @@
         "storage": "4 GB",
         "android": "11+"
       },
+      "download": {
+        "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf",
+        "filename": "Qwen3-4B-Q4_K_M.gguf",
+        "sizeBytes": 2497280256,
+        "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5"
+      },
       "description": "High-performance local AI for demanding mobile workloads."
     },
-    {
+    "qwen3-4b-thinking-2507-q4": {
       "id": "qwen3-4b-thinking-2507-q4",
       "name": "Qwen3 4B Thinking 2507",
       "version": "1.0.0",
-      "url": "https://huggingface.co/QuantFactory/Qwen3-4B-Thinking-2507-GGUF",
       "specifications": {
         "parameters": "4B",
         "contextLength": "262144 tokens",
         "quantization": "Q4_K_S",
-        "size": "VERIFY"
+        "size": "2.60 GB"
       },
       "thinkingMode": true,
       "capabilities": [
@@ -473,18 +483,23 @@
         "storage": "4 GB",
         "android": "11+"
       },
+      "download": {
+        "url": "https://huggingface.co/QuantFactory/Qwen3-4B-Thinking-2507-GGUF/resolve/main/Qwen3-4B-Thinking-2507.Q4_K_S.gguf",
+        "filename": "Qwen3-4B-Thinking-2507.Q4_K_S.gguf",
+        "sizeBytes": 2602096992,
+        "sha256": "9b06411646f12cdf6adc41569638ce4ab2d82859230a284ffbec8fea62d343c4"
+      },
       "description": "Reasoning-focused Qwen model optimized for complex thinking tasks."
     },
-    {
+    "phi-4-mini-instruct-q4km": {
       "id": "phi-4-mini-instruct-q4km",
       "name": "Phi-4 Mini Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/tensorblock/Phi-4-mini-instruct-GGUF",
       "specifications": {
         "parameters": "3.8B",
-        "contextLength": "128K tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
-        "size": "2.492 GB"
+        "size": "2.49 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -498,18 +513,23 @@
         "storage": "4 GB",
         "android": "11+"
       },
+      "download": {
+        "url": "https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf",
+        "filename": "Phi-4-mini-instruct-Q4_K_M.gguf",
+        "sizeBytes": 2491874272,
+        "sha256": "88c00229914083cd112853aab84ed51b87bdf6b9ce42f532d8c85c7c63b1730a"
+      },
       "description": "Compact high-performance model for advanced reasoning and coding."
     },
-    {
+    "ministral-3b-instruct-q4km": {
       "id": "ministral-3b-instruct-q4km",
       "name": "Ministral 3B Instruct",
       "version": "1.0.0",
-      "url": "https://huggingface.co/tensorblock/Ministral-3b-instruct-GGUF",
       "specifications": {
         "parameters": "3B",
-        "contextLength": "32768 tokens",
+        "contextLength": "131072 tokens",
         "quantization": "Q4_K_M",
-        "size": "1.860 GB"
+        "size": "2.00 GB"
       },
       "thinkingMode": false,
       "capabilities": [
@@ -523,19 +543,21 @@
         "storage": "4 GB",
         "android": "11+"
       },
+      "download": {
+        "url": "https://huggingface.co/matrixportalx/Ministral-3b-instruct-Q4_K_M-GGUF/resolve/main/ministral-3b-instruct-q4_k_m.gguf",
+        "filename": "ministral-3b-instruct-q4_k_m.gguf",
+        "sizeBytes": 1997337568,
+        "sha256": "f6559975dfe5f3cabd43cc059baaf5c4007c670b2d17ee60ee6c40733259f686"
+      },
       "description": "Efficient high-quality AI for resource-constrained environments."
-    }
-  ],
-
-  "High-End-12-GB-Plus": [
-    {
+    },
+    "qwen3-8b-q4km": {
       "id": "qwen3-8b-q4km",
       "name": "Qwen3 8B",
       "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
       "specifications": {
         "parameters": "8.2B",
-        "contextLength": "32768 tokens",
+        "contextLength": "40960 tokens",
         "quantization": "Q4_K_M",
         "size": "5.03 GB"
       },
@@ -553,34 +575,49 @@
         "storage": "6 GB",
         "android": "12+"
       },
+      "download": {
+        "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf",
+        "filename": "Qwen3-8B-Q4_K_M.gguf",
+        "sizeBytes": 5027783488,
+        "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+      },
       "description": "High-end on-device AI for demanding reasoning and coding workloads."
-    },
-    {
-      "id": "qwen3-4b-q4km",
-      "name": "Qwen3 4B",
-      "version": "1.0.0",
-      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
-      "specifications": {
-        "parameters": "4B",
-        "contextLength": "32768 tokens",
-        "quantization": "Q4_K_M",
-        "size": "2.50 GB"
-      },
-      "thinkingMode": true,
-      "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Mathematics",
-        "Writing",
-        "Translation"
-      ],
-      "requirements": {
-        "ram": "12 GB+",
-        "storage": "4 GB",
-        "android": "12+"
-      },
-      "description": "High-quality AI with additional memory headroom."
     }
-  ]
+  },
+  "categories": {
+    "Ultra-Lightweight-2-GB": [
+      "smollm2-135m-instruct-q4km",
+      "smollm2-360m-instruct-q4km",
+      "qwen3-0.6b-q4",
+      "qwen3.5-0.8b-q4",
+      "llama-3.2-1b-instruct-q4km"
+    ],
+    "Lightweight-3-GB": [
+      "gemma-3-1b-it-q4km",
+      "smollm2-1.7b-instruct-q4km",
+      "qwen3-0.6b-q4",
+      "llama-3.2-1b-instruct-q4km"
+    ],
+    "Balanced-4-GB": [
+      "qwen3-1.7b-q4km",
+      "deepseek-r1-distill-qwen-1.5b",
+      "qwen2.5-math-1.5b-q4km",
+      "llama-3.2-3b-instruct-q4km"
+    ],
+    "Advanced-6-GB": [
+      "qwen3.5-2b-q4km",
+      "granite-3.3-2b-instruct-q4km",
+      "phi-3.5-mini-instruct-q4km"
+    ],
+    "High-Performance-8-GB": [
+      "qwen3-4b-q4km",
+      "qwen3-4b-thinking-2507-q4",
+      "phi-4-mini-instruct-q4km",
+      "ministral-3b-instruct-q4km"
+    ],
+    "High-End-12-GB-Plus": [
+      "qwen3-8b-q4km",
+      "qwen3-4b-q4km"
+    ]
+  }
 }
