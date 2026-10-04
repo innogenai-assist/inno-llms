@@ -1,10 +1,10 @@
-# Llama 3.2 1B Instruct (llama-3.2-1b-instruct-q4km)
+# Llama 3.2 1B Instruct (`llama-3.2-1b-instruct-q4km`)
 
 **Description:** Efficient instruction-following AI for mobile devices.
 
 ## Model Overview
 - **Parameters:** 1B
-- **Context Length:** 8192 tokens
+- **Context Length:** 131072 tokens
 - **Quantization:** Q4_K_M
 - **Format:** GGUF
 - **Target File:** `llama-3.2-1b-instruct-q4_k_m.gguf`
@@ -23,8 +23,9 @@ Chat, Coding, Writing, Summarization
 ## Source & Upstream
 - **Hugging Face Repo:** [hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF](https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF)
 - **Download URL:** [Download GGUF](https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-1b-instruct-q4_k_m.gguf)
+- **SHA-256 Hash:** `1d0e9419ec4e12aef73ccf4ffd122703e94c48344a96bc7c5f0f2772c2152ce3`
 
 ## Running Locally with LLaMA.cpp
 ```bash
-llama-server -m llama-3.2-1b-instruct-q4_k_m.gguf -c 8192
+llama-server -m llama-3.2-1b-instruct-q4_k_m.gguf -c 131072
 ```

@@ -1,32 +1,33 @@
 {
-    "id": "smollm2-1.7b-instruct-q4km",
-    "name": "SmolLM2 1.7B Instruct",
-    "version": "1.0.0",
-    "license": "Apache-2.0",
-    "sourceRepository": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
-    "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
-    "fileSizeBytes": 1055420448,
-    "directDownloadUrl": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf",
-    "specifications": {
-        "parameters": "1.7B",
-        "contextLength": "8192 tokens",
-        "quantization": "Q4_K_M",
-        "size": "1.06 GB"
-    },
-    "thinkingMode": false,
-    "capabilities": [
-        "Chat",
-        "Coding",
-        "Writing",
-        "Summarization"
-    ],
-    "requirements": {
-        "ram": "3 GB",
-        "storage": "2 GB",
-        "android": "8+"
-    },
-    "description": "Small instruction model optimized for local inference.",
-    "categories": [
-        "Lightweight-3-GB"
-    ]
+  "id": "smollm2-1.7b-instruct-q4km",
+  "name": "SmolLM2 1.7B Instruct",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "sourceRepository": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+  "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+  "fileSizeBytes": 1055609536,
+  "sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+  "directDownloadUrl": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf",
+  "specifications": {
+    "parameters": "1.7B",
+    "contextLength": "8192 tokens",
+    "quantization": "Q4_K_M",
+    "size": "1.06 GB"
+  },
+  "thinkingMode": false,
+  "capabilities": [
+    "Chat",
+    "Coding",
+    "Writing",
+    "Summarization"
+  ],
+  "requirements": {
+    "ram": "3 GB",
+    "storage": "2 GB",
+    "android": "8+"
+  },
+  "description": "Small instruction model optimized for local inference.",
+  "categories": [
+    "Lightweight-3-GB"
+  ]
 }

@@ -1,4 +1,4 @@
-# SmolLM2 1.7B Instruct (smollm2-1.7b-instruct-q4km)
+# SmolLM2 1.7B Instruct (`smollm2-1.7b-instruct-q4km`)
 
 **Description:** Small instruction model optimized for local inference.
 
@@ -23,6 +23,7 @@ Chat, Coding, Writing, Summarization
 ## Source & Upstream
 - **Hugging Face Repo:** [HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF)
 - **Download URL:** [Download GGUF](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf)
+- **SHA-256 Hash:** `decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33`
 
 ## Running Locally with LLaMA.cpp
 ```bash

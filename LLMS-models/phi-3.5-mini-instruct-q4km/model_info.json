@@ -1,33 +1,34 @@
 {
-    "id": "phi-3.5-mini-instruct-q4km",
-    "name": "Phi-3.5 Mini Instruct",
-    "version": "1.0.0",
-    "license": "MIT",
-    "sourceRepository": "QuantFactory/Phi-3.5-mini-instruct-GGUF",
-    "filename": "Phi-3.5-mini-instruct.Q4_K_M.gguf",
-    "fileSizeBytes": 2393250560,
-    "directDownloadUrl": "https://huggingface.co/QuantFactory/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct.Q4_K_M.gguf",
-    "specifications": {
-        "parameters": "3.8B",
-        "contextLength": "128K tokens",
-        "quantization": "Q4_K_M",
-        "size": "2.39 GB"
-    },
-    "thinkingMode": false,
-    "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Mathematics",
-        "Writing"
-    ],
-    "requirements": {
-        "ram": "6 GB",
-        "storage": "4 GB",
-        "android": "10+"
-    },
-    "description": "Strong compact model for advanced mobile AI tasks.",
-    "categories": [
-        "Advanced-6-GB"
-    ]
+  "id": "phi-3.5-mini-instruct-q4km",
+  "name": "Phi-3.5 Mini Instruct",
+  "version": "1.0.0",
+  "license": "MIT",
+  "sourceRepository": "QuantFactory/Phi-3.5-mini-instruct-GGUF",
+  "filename": "Phi-3.5-mini-instruct.Q4_K_M.gguf",
+  "fileSizeBytes": 2393232384,
+  "sha256": "3ef532675b6684b28e0a1a0dca8b3bf4132673bf2294b7d87b41b1d64bb03bca",
+  "directDownloadUrl": "https://huggingface.co/QuantFactory/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct.Q4_K_M.gguf",
+  "specifications": {
+    "parameters": "3.8B",
+    "contextLength": "131072 tokens",
+    "quantization": "Q4_K_M",
+    "size": "2.39 GB"
+  },
+  "thinkingMode": false,
+  "capabilities": [
+    "Chat",
+    "Reasoning",
+    "Coding",
+    "Mathematics",
+    "Writing"
+  ],
+  "requirements": {
+    "ram": "6 GB",
+    "storage": "4 GB",
+    "android": "10+"
+  },
+  "description": "Strong compact model for advanced mobile AI tasks.",
+  "categories": [
+    "Advanced-6-GB"
+  ]
 }

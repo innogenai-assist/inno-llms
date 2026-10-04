@@ -1,34 +1,35 @@
 {
-    "id": "qwen3.5-0.8b-q4",
-    "name": "Qwen3.5 0.8B",
-    "version": "1.0.0",
-    "license": "Apache-2.0",
-    "sourceRepository": "ggml-org/Qwen3.5-0.8B-GGUF",
-    "filename": "Qwen3.5-0.8B-Q4_0.gguf",
-    "fileSizeBytes": 563036064,
-    "directDownloadUrl": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_0.gguf",
-    "specifications": {
-        "parameters": "0.8B",
-        "contextLength": "verify model release",
-        "quantization": "Q4_0",
-        "size": "563 MB"
-    },
-    "thinkingMode": true,
-    "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Mathematics",
-        "Writing",
-        "Translation"
-    ],
-    "requirements": {
-        "ram": "2 GB",
-        "storage": "1.5 GB",
-        "android": "8+"
-    },
-    "description": "Compact AI for fast everyday conversations and tasks.",
-    "categories": [
-        "Ultra-Lightweight-2-GB"
-    ]
+  "id": "qwen3.5-0.8b-q4",
+  "name": "Qwen3.5 0.8B",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "sourceRepository": "ggml-org/Qwen3.5-0.8B-GGUF",
+  "filename": "Qwen3.5-0.8B-Q4_0.gguf",
+  "fileSizeBytes": 563036064,
+  "sha256": "57d1997790d1744fba5b40a7317df71ea5e2acee28c47e78f0cce39c0703f8cf",
+  "directDownloadUrl": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_0.gguf",
+  "specifications": {
+    "parameters": "0.8B",
+    "contextLength": "262144 tokens",
+    "quantization": "Q4_0",
+    "size": "563 MB"
+  },
+  "thinkingMode": true,
+  "capabilities": [
+    "Chat",
+    "Reasoning",
+    "Coding",
+    "Mathematics",
+    "Writing",
+    "Translation"
+  ],
+  "requirements": {
+    "ram": "2 GB",
+    "storage": "1.5 GB",
+    "android": "8+"
+  },
+  "description": "Compact AI for fast everyday conversations and tasks.",
+  "categories": [
+    "Ultra-Lightweight-2-GB"
+  ]
 }

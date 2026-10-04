@@ -1,32 +1,33 @@
 {
-    "id": "ministral-3b-instruct-q4km",
-    "name": "Ministral 3B Instruct",
-    "version": "1.0.0",
-    "license": "Mistral Research License",
-    "sourceRepository": "matrixportalx/Ministral-3b-instruct-Q4_K_M-GGUF",
-    "filename": "ministral-3b-instruct-q4_k_m.gguf",
-    "fileSizeBytes": 1997557568,
-    "directDownloadUrl": "https://huggingface.co/matrixportalx/Ministral-3b-instruct-Q4_K_M-GGUF/resolve/main/ministral-3b-instruct-q4_k_m.gguf",
-    "specifications": {
-        "parameters": "3B",
-        "contextLength": "32768 tokens",
-        "quantization": "Q4_K_M",
-        "size": "1.860 GB"
-    },
-    "thinkingMode": false,
-    "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Writing"
-    ],
-    "requirements": {
-        "ram": "8 GB",
-        "storage": "4 GB",
-        "android": "11+"
-    },
-    "description": "Efficient high-quality AI for resource-constrained environments.",
-    "categories": [
-        "High-Performance-8-GB"
-    ]
+  "id": "ministral-3b-instruct-q4km",
+  "name": "Ministral 3B Instruct",
+  "version": "1.0.0",
+  "license": "Mistral Research License",
+  "sourceRepository": "matrixportalx/Ministral-3b-instruct-Q4_K_M-GGUF",
+  "filename": "ministral-3b-instruct-q4_k_m.gguf",
+  "fileSizeBytes": 1997337568,
+  "sha256": "f6559975dfe5f3cabd43cc059baaf5c4007c670b2d17ee60ee6c40733259f686",
+  "directDownloadUrl": "https://huggingface.co/matrixportalx/Ministral-3b-instruct-Q4_K_M-GGUF/resolve/main/ministral-3b-instruct-q4_k_m.gguf",
+  "specifications": {
+    "parameters": "3B",
+    "contextLength": "131072 tokens",
+    "quantization": "Q4_K_M",
+    "size": "2.00 GB"
+  },
+  "thinkingMode": false,
+  "capabilities": [
+    "Chat",
+    "Reasoning",
+    "Coding",
+    "Writing"
+  ],
+  "requirements": {
+    "ram": "8 GB",
+    "storage": "4 GB",
+    "android": "11+"
+  },
+  "description": "Efficient high-quality AI for resource-constrained environments.",
+  "categories": [
+    "High-Performance-8-GB"
+  ]
 }

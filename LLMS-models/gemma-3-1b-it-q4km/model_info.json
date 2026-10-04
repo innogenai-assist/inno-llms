@@ -1,33 +1,34 @@
 {
-    "id": "gemma-3-1b-it-q4km",
-    "name": "Gemma 3 1B",
-    "version": "1.0.0",
-    "license": "Gemma Terms of Use",
-    "sourceRepository": "ggml-org/gemma-3-1b-it-GGUF",
-    "filename": "gemma-3-1b-it-Q4_K_M.gguf",
-    "fileSizeBytes": 806628480,
-    "directDownloadUrl": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf",
-    "specifications": {
-        "parameters": "1B",
-        "contextLength": "verify model release",
-        "quantization": "Q4_K_M",
-        "size": "806 MB"
-    },
-    "thinkingMode": false,
-    "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Writing",
-        "Summarization"
-    ],
-    "requirements": {
-        "ram": "3 GB",
-        "storage": "1.5 GB",
-        "android": "8+"
-    },
-    "description": "Compact general-purpose AI for mobile devices.",
-    "categories": [
-        "Lightweight-3-GB"
-    ]
+  "id": "gemma-3-1b-it-q4km",
+  "name": "Gemma 3 1B",
+  "version": "1.0.0",
+  "license": "Gemma Terms of Use",
+  "sourceRepository": "ggml-org/gemma-3-1b-it-GGUF",
+  "filename": "gemma-3-1b-it-Q4_K_M.gguf",
+  "fileSizeBytes": 806058240,
+  "sha256": "8ccc5cd1f1b3602548715ae25a66ed73fd5dc68a210412eea643eb20eb75a135",
+  "directDownloadUrl": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf",
+  "specifications": {
+    "parameters": "1B",
+    "contextLength": "32768 tokens",
+    "quantization": "Q4_K_M",
+    "size": "806 MB"
+  },
+  "thinkingMode": false,
+  "capabilities": [
+    "Chat",
+    "Reasoning",
+    "Coding",
+    "Writing",
+    "Summarization"
+  ],
+  "requirements": {
+    "ram": "3 GB",
+    "storage": "1.5 GB",
+    "android": "8+"
+  },
+  "description": "Compact general-purpose AI for mobile devices.",
+  "categories": [
+    "Lightweight-3-GB"
+  ]
 }

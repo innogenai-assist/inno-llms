@@ -1,10 +1,10 @@
-# Llama 3.2 3B Instruct (llama-3.2-3b-instruct-q4km)
+# Llama 3.2 3B Instruct (`llama-3.2-3b-instruct-q4km`)
 
 **Description:** Powerful compact instruction model for mobile devices.
 
 ## Model Overview
 - **Parameters:** 3B
-- **Context Length:** 8192 tokens
+- **Context Length:** 131072 tokens
 - **Quantization:** Q4_K_M
 - **Format:** GGUF
 - **Target File:** `llama-3.2-3b-instruct-q4_k_m.gguf`
@@ -23,8 +23,9 @@ Chat, Coding, Writing, Summarization
 ## Source & Upstream
 - **Hugging Face Repo:** [hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF](https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF)
 - **Download URL:** [Download GGUF](https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-3b-instruct-q4_k_m.gguf)
+- **SHA-256 Hash:** `c55a83bfb6396799337853ca69918a0b9bbb2917621078c34570bc17d20fd7a1`
 
 ## Running Locally with LLaMA.cpp
 ```bash
-llama-server -m llama-3.2-3b-instruct-q4_k_m.gguf -c 8192
+llama-server -m llama-3.2-3b-instruct-q4_k_m.gguf -c 131072
 ```

@@ -1,32 +1,33 @@
 {
-    "id": "phi-4-mini-instruct-q4km",
-    "name": "Phi-4 Mini Instruct",
-    "version": "1.0.0",
-    "license": "MIT",
-    "sourceRepository": "unsloth/Phi-4-mini-instruct-GGUF",
-    "filename": "Phi-4-mini-instruct-Q4_K_M.gguf",
-    "fileSizeBytes": 2492028896,
-    "directDownloadUrl": "https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf",
-    "specifications": {
-        "parameters": "3.8B",
-        "contextLength": "128K tokens",
-        "quantization": "Q4_K_M",
-        "size": "2.492 GB"
-    },
-    "thinkingMode": false,
-    "capabilities": [
-        "Chat",
-        "Reasoning",
-        "Coding",
-        "Mathematics"
-    ],
-    "requirements": {
-        "ram": "8 GB",
-        "storage": "4 GB",
-        "android": "11+"
-    },
-    "description": "Compact high-performance model for advanced reasoning and coding.",
-    "categories": [
-        "High-Performance-8-GB"
-    ]
+  "id": "phi-4-mini-instruct-q4km",
+  "name": "Phi-4 Mini Instruct",
+  "version": "1.0.0",
+  "license": "MIT",
+  "sourceRepository": "unsloth/Phi-4-mini-instruct-GGUF",
+  "filename": "Phi-4-mini-instruct-Q4_K_M.gguf",
+  "fileSizeBytes": 2491874272,
+  "sha256": "88c00229914083cd112853aab84ed51b87bdf6b9ce42f532d8c85c7c63b1730a",
+  "directDownloadUrl": "https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf",
+  "specifications": {
+    "parameters": "3.8B",
+    "contextLength": "131072 tokens",
+    "quantization": "Q4_K_M",
+    "size": "2.49 GB"
+  },
+  "thinkingMode": false,
+  "capabilities": [
+    "Chat",
+    "Reasoning",
+    "Coding",
+    "Mathematics"
+  ],
+  "requirements": {
+    "ram": "8 GB",
+    "storage": "4 GB",
+    "android": "11+"
+  },
+  "description": "Compact high-performance model for advanced reasoning and coding.",
+  "categories": [
+    "High-Performance-8-GB"
+  ]
 }

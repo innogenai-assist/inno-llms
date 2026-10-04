@@ -1,10 +1,10 @@
-# Qwen3 4B (qwen3-4b-q4km)
+# Qwen3 4B (`qwen3-4b-q4km`)
 
 **Description:** High-performance local AI for demanding mobile workloads.
 
 ## Model Overview
 - **Parameters:** 4B
-- **Context Length:** 32768 tokens
+- **Context Length:** 40960 tokens
 - **Quantization:** Q4_K_M
 - **Format:** GGUF
 - **Target File:** `Qwen3-4B-Q4_K_M.gguf`
@@ -23,8 +23,9 @@ Chat, Reasoning, Coding, Mathematics, Writing, Translation
 ## Source & Upstream
 - **Hugging Face Repo:** [Qwen/Qwen3-4B-GGUF](https://huggingface.co/Qwen/Qwen3-4B-GGUF)
 - **Download URL:** [Download GGUF](https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf)
+- **SHA-256 Hash:** `7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5`
 
 ## Running Locally with LLaMA.cpp
 ```bash
-llama-server -m Qwen3-4B-Q4_K_M.gguf -c 32768
+llama-server -m Qwen3-4B-Q4_K_M.gguf -c 40960
 ```
